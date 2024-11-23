@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
+
+.pt-serif-caption-regular {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .pt-serif-caption-regular-italic {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: italic;
+}  
+
+
+
+
+
+:root {
+    --header-height: 3.5rem;
+
+
+    --title-color: hsl(0%, 0%, 95%);
+    --text-color: hsl(0%, 0%, 70%);
+    --text-color-light: hsl(0%, 0%, 60%);
+    --body-color: hsl(0%, 0%, 0%);
+    --container-color: hsl(0%, 0%, 8%);
+
+
+    --body-font: "PT Serif Caption", sans-serif;
+    --second-font: "Poppins", sans-serif;
+    --biggest-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75em;
+
+
+    --font-regular: 400;
+    --font-regular: 400;
+    --font-semi-bold: 600;
+
+
+
+
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+
+@media screen and (min-width: 1152px) {
+    :root {
+        --biggest-font-size: 5.5rem;
+        --h1-font-size: 2.5rem;
+        --h1-font-size: 2.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 875rem;
+        --smaller-font-size: 813rem;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+
+button,
+input{
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4{
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-weight: var(--font-semi-bold);
+}
+
+ul{
+    list-style: none;
+}
